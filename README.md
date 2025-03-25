@@ -1,4 +1,27 @@
-c:\Users\roman\UTProjects\Kelulusan\kelulusan-jobs\
+# Job Processing System
+
+This is a job processing system built using Python and the FastAPI framework. It allows users to submit jobs, retrieve job status, and view job results. The system uses Redis for job queueing and PostgreSQL for job storage.
+
+## Features
+
+- Submit jobs with a title and description
+- Retrieve job status by job ID
+- View job results by job ID
+
+
+## Project Structure
+
+The project is organized into the following directories:
+
+- `src`: Contains the source code for the job processing system.
+- `tests`: Contains unit and integration tests for the job processing system.
+
+## Getting Started
+
+
+```text
+job-processing-system/
+
 ├── src/
 │   ├── domain/
 │   │   ├── __init__.py
@@ -47,3 +70,4 @@ c:\Users\roman\UTProjects\Kelulusan\kelulusan-jobs\
 │       └── test_consumer.py
 ├── pyproject.toml
 └── README.md
+```
