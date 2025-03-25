@@ -1,0 +1,24 @@
+[project]
+name = "kelulusan-jobs"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Romando Purba",email = "romando@ecampus.ut.ac.id"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [
+    {include = "domain", from = "src/domain"},
+    {include = "application", from = "src/application"},
+    {include = "infrastructure", from = "src/infrastructure"},
+    {include = "main", from = "src/main"},
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
